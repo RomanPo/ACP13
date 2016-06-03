@@ -1,0 +1,2 @@
+type:privateserializer.Car
+{model: lada}{year: 1989}{price: 2.0}

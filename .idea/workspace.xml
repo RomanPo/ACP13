@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a6f23664-819b-4a18-9fca-40e83ea896a3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/gson_2_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/serverclienttask/RunClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/serverclienttask/Server.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/serverclienttask/ServerTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Serializer/privateserializer/test.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/privateserializer/test.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Serializer/privateserializer/ReflectionFormater.class" afterPath="$PROJECT_DIR$/out/production/Serializer/privateserializer/ReflectionFormater.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Serializer/privateserializer/TestReflectionFormater.class" afterPath="$PROJECT_DIR$/out/production/Serializer/privateserializer/TestReflectionFormater.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Serializer.iml" afterPath="$PROJECT_DIR$/Serializer.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/privateserializer/ReflectionFormater.java" afterPath="$PROJECT_DIR$/src/privateserializer/ReflectionFormater.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/privateserializer/TestReflectionFormater.java" afterPath="$PROJECT_DIR$/src/privateserializer/TestReflectionFormater.java" />
-    </list>
+    <list default="true" id="a6f23664-819b-4a18-9fca-40e83ea896a3" name="Default" comment="" />
     <ignored path="Serializer.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -35,24 +22,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TestReflectionFormater.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TestReflectionFormater.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/privateserializer/TestReflectionFormater.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.4040747">
+              <caret line="14" column="59" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/privateserializer/test.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.65384614">
-              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -145,7 +122,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/privateserializer/TestReflectionFormater.java" />
         <option value="$PROJECT_DIR$/src/privateserializer/ReflectionFormater.java" />
         <option value="$PROJECT_DIR$/src/serverclienttask/ServerTest.java" />
         <option value="$PROJECT_DIR$/src/serverclienttask/Client.java" />
@@ -664,7 +640,19 @@
       <option name="project" value="LOCAL" />
       <updated>1464965066446</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="master">
+      <created>1464965194041</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1464965194041</updated>
+    </task>
+    <task id="LOCAL-00004" summary="master">
+      <created>1464965229371</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1464965229371</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -774,14 +762,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/privateserializer/test.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.65384614">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/io/DataInputStream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -794,16 +774,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/privateserializer/TestReflectionFormater.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -832,8 +802,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/serverclienttask/RunClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4311594">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/privateserializer/TestReflectionFormater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4040747">
+          <caret line="14" column="59" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
