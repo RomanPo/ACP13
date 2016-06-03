@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6f23664-819b-4a18-9fca-40e83ea896a3" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/gson_2_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/serverclienttask/RunClient.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/serverclienttask/Server.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/serverclienttask/ServerTest.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Serializer/privateserializer/test.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/privateserializer/test.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Serializer/privateserializer/ReflectionFormater.class" afterPath="$PROJECT_DIR$/out/production/Serializer/privateserializer/ReflectionFormater.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Serializer/privateserializer/TestReflectionFormater.class" afterPath="$PROJECT_DIR$/out/production/Serializer/privateserializer/TestReflectionFormater.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Serializer.iml" afterPath="$PROJECT_DIR$/Serializer.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/privateserializer/ReflectionFormater.java" afterPath="$PROJECT_DIR$/src/privateserializer/ReflectionFormater.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/privateserializer/TestReflectionFormater.java" afterPath="$PROJECT_DIR$/src/privateserializer/TestReflectionFormater.java" />
     </list>
     <ignored path="Serializer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -82,11 +93,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RunClient.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RunClient.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/serverclienttask/RunClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.67753625">
-              <caret line="28" column="49" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -141,6 +152,7 @@
         <option value="$PROJECT_DIR$/src/serverclienttask/Server2.java" />
         <option value="$PROJECT_DIR$/src/serverclienttask/Server.java" />
         <option value="$PROJECT_DIR$/src/serverclienttask/RunClient.java" />
+        <option value="$PROJECT_DIR$/src/privateserializer/TestReflectionFormater.java" />
       </list>
     </option>
   </component>
@@ -646,7 +658,13 @@
       <option name="project" value="LOCAL" />
       <updated>1464964634928</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="master">
+      <created>1464965066446</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1464965066446</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -660,11 +678,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -814,8 +832,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/serverclienttask/RunClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.67753625">
-          <caret line="28" column="49" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
+        <state vertical-scroll-proportion="0.4311594">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

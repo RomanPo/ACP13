@@ -13,7 +13,7 @@ public class TestReflectionFormater {
        ReflectionFormater reflectionFormater = new ReflectionFormater();
         Car car = new Car("lada", 1989, 2.0);
         System.out.println(reflectionFormater.format(car));
-        FileOutputStream fl = new FileOutputStream("C:\\Serializer\\src\\privateserializer/test.json");
+        FileOutputStream fl = new FileOutputStream("C:\\Serializer\\src\\privateserializer");
         fl.write(reflectionFormater.format(car).getBytes());
     }
 }
