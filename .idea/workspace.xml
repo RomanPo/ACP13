@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6f23664-819b-4a18-9fca-40e83ea896a3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/gson_2_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/serverclienttask/RunClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/serverclienttask/Server.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/serverclienttask/ServerTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Serializer/privateserializer/test.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/privateserializer/test.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Serializer/privateserializer/ReflectionFormater.class" afterPath="$PROJECT_DIR$/out/production/Serializer/privateserializer/ReflectionFormater.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Serializer/privateserializer/TestReflectionFormater.class" afterPath="$PROJECT_DIR$/out/production/Serializer/privateserializer/TestReflectionFormater.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Serializer.iml" afterPath="$PROJECT_DIR$/Serializer.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/privateserializer/ReflectionFormater.java" afterPath="$PROJECT_DIR$/src/privateserializer/ReflectionFormater.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/privateserializer/TestReflectionFormater.java" afterPath="$PROJECT_DIR$/src/privateserializer/TestReflectionFormater.java" />
     </list>
     <ignored path="Serializer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -96,8 +85,8 @@
       <file leaf-file-name="RunClient.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/serverclienttask/RunClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4311594">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.67753625">
+              <caret line="28" column="49" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -651,6 +640,13 @@
       <option name="number" value="Default" />
       <updated>1464866517111</updated>
     </task>
+    <task id="LOCAL-00001" summary="master">
+      <created>1464964634928</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1464964634928</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -691,6 +687,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="master" />
+    <option name="LAST_COMMIT_MESSAGE" value="master" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -814,8 +814,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/serverclienttask/RunClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4311594">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.67753625">
+          <caret line="28" column="49" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
