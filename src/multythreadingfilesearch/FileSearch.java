@@ -1,5 +1,6 @@
 package multythreadingfilesearch;
 
+import com.sun.org.apache.xml.internal.serializer.utils.SystemIDResolver;
 import com.sun.org.apache.xpath.internal.SourceTree;
 
 import java.io.File;
@@ -27,6 +28,7 @@ public class FileSearch {
             Future future = service.submit(new FirstThread(root1, searchName, myContainer1));
             Future future1 = service.submit(new SecondThread(root2, searchName2, myContainer1));
         }
+
         service.shutdown();
         while (!service.isTerminated()) {
             try {
@@ -35,6 +37,7 @@ public class FileSearch {
                 e.printStackTrace();
             }
         }
+        long sec1 = System.currentTimeMillis();
     }
 
     static class MyContainer1 {
@@ -91,7 +94,6 @@ class SecondThread extends Thread implements Runnable {
 
     @Override
     public void run() {
-
         container1.searchFile(fileRoot, name);
     }
 }

@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6f23664-819b-4a18-9fca-40e83ea896a3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/multythreadingfilesearch/FileSearch.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/multythreadingfilesearch/_01ThreadIntro.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Serializer/privateserializer/test.json" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Serializer/privateserializer/ReflectionFormater.class" afterPath="$PROJECT_DIR$/out/production/Serializer/privateserializer/ReflectionFormater.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Serializer/privateserializer/TestReflectionFormater.class" afterPath="$PROJECT_DIR$/out/production/Serializer/privateserializer/TestReflectionFormater.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/multythreadingfilesearch/FileSearch.java" afterPath="$PROJECT_DIR$/src/multythreadingfilesearch/FileSearch.java" />
     </list>
     <ignored path="Serializer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -110,12 +106,14 @@
       <file leaf-file-name="FileSearch.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/multythreadingfilesearch/FileSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.35326087">
-              <caret line="83" column="47" selection-start-line="83" selection-start-column="47" selection-end-line="83" selection-end-column="47" />
+            <state vertical-scroll-proportion="0.47644928">
+              <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2208#2209#0" expanded="true" />
-                <element signature="e#2260#2261#0" expanded="true" />
+                <element signature="e#2331#2332#0" expanded="true" />
+                <element signature="e#2383#2384#0" expanded="true" />
+                <element signature="e#2781#2782#0" expanded="true" />
+                <element signature="e#2834#2835#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -818,7 +816,13 @@
       <option name="project" value="LOCAL" />
       <updated>1464965522809</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Pull for master">
+      <created>1465468149582</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1465468149582</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -832,7 +836,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -863,7 +867,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="master" />
     <MESSAGE value="Merge branch 'master' of https://github.com/RomanPo/ACP13&#10;&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/RomanPo/ACP13&#10;&#10;" />
+    <MESSAGE value="Pull for master" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pull for master" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1017,12 +1022,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/multythreadingfilesearch/FileSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35326087">
-          <caret line="83" column="47" selection-start-line="83" selection-start-column="47" selection-end-line="83" selection-end-column="47" />
+        <state vertical-scroll-proportion="0.47644928">
+          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2208#2209#0" expanded="true" />
-            <element signature="e#2260#2261#0" expanded="true" />
+            <element signature="e#2331#2332#0" expanded="true" />
+            <element signature="e#2383#2384#0" expanded="true" />
+            <element signature="e#2781#2782#0" expanded="true" />
+            <element signature="e#2834#2835#0" expanded="true" />
           </folding>
         </state>
       </provider>
