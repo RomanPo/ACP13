@@ -4,6 +4,7 @@ import com.sun.org.apache.xml.internal.serializer.utils.SystemIDResolver;
 import com.sun.org.apache.xpath.internal.SourceTree;
 
 import java.io.File;
+import java.util.Arrays;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
@@ -15,19 +16,19 @@ import java.util.concurrent.TimeUnit;
 public class FileSearch {
     public static void main(String[] args) {
 
-        String searchName = "IContainer";
+        String searchName = "vcs.xml";
         String searchName2 = "modules.xml";
-        File root1 = new File("C:\\Serializer\\out\\production\\Serializer");
+        File root1 = new File("C:\\Serializer\\.idea");
         File root2 = new File("C:\\Serializer\\.idea");
 
         MyContainer1 myContainer1 = new MyContainer1();
 
         ExecutorService service = Executors.newFixedThreadPool(2);
 
-
+        for (int i = 0; i < 2; i++) {
             Future future = service.submit(new FirstThread(root1, searchName, myContainer1));
             Future future1 = service.submit(new SecondThread(root2, searchName2, myContainer1));
-
+        }
 
         service.shutdown();
         while (!service.isTerminated()) {
@@ -44,22 +45,14 @@ public class FileSearch {
         File root;
         String searchName;
 
-        public MyContainer1() {
-        }
-
-        public MyContainer1(File root, String searchName) {
-            this.root = root;
-            this.searchName = searchName;
-        }
-
         public void searchFile(File root, String searchedName) {
-            File[] files = root.listFiles();
 
-            if (files == null) {
+            if (root == null) {
                 throw new NullPointerException();
             }
-            for (File file : files) {
+            for (File file : root.listFiles()) {
                 if (file.isDirectory()) {
+                    root = file;
                     searchFile(root, searchedName);
                 } else if (file.getName().equals(searchedName)) {
 
