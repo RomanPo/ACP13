@@ -15,19 +15,19 @@ import java.util.concurrent.TimeUnit;
 public class FileSearch {
     public static void main(String[] args) {
 
-        String searchName = "vcs.xml";
+        String searchName = "IContainer";
         String searchName2 = "modules.xml";
-        File root1 = new File("C:\\Serializer");
-        File root2 = new File("C:\\Serializer");
+        File root1 = new File("C:\\Serializer\\out\\production\\Serializer");
+        File root2 = new File("C:\\Serializer\\.idea");
 
         MyContainer1 myContainer1 = new MyContainer1();
 
         ExecutorService service = Executors.newFixedThreadPool(2);
 
-        for (int i = 0; i < 2; i++) {
+
             Future future = service.submit(new FirstThread(root1, searchName, myContainer1));
             Future future1 = service.submit(new SecondThread(root2, searchName2, myContainer1));
-        }
+
 
         service.shutdown();
         while (!service.isTerminated()) {
@@ -37,12 +37,20 @@ public class FileSearch {
                 e.printStackTrace();
             }
         }
-        long sec1 = System.currentTimeMillis();
+
     }
 
     static class MyContainer1 {
         File root;
         String searchName;
+
+        public MyContainer1() {
+        }
+
+        public MyContainer1(File root, String searchName) {
+            this.root = root;
+            this.searchName = searchName;
+        }
 
         public void searchFile(File root, String searchedName) {
             File[] files = root.listFiles();
