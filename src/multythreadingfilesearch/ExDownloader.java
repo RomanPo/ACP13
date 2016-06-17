@@ -26,71 +26,73 @@ import java.util.concurrent.BlockingQueue;
 public class ExDownloader {
     public static void main(String[] args) throws IOException {
 
-        BlockingQueue<Element> buff = new ArrayBlockingQueue<Element>(250,true);
+        BlockingQueue<Element> buff = new ArrayBlockingQueue<Element>(250, true);
 
-       Document document = Jsoup.parse(new URL("http://www.ex.ua/98554142"), 112);
+        Document document = Jsoup.parse(new URL("http://www.ex.ua/98554142"), 11312);
         Element element = document.body();
         Elements elements = element.getElementsByTag("a");
-        for (Element el : elements){
+        for (Element el : elements) {
             String href = el.attr("href");
-            if (href.contains("https://")|| (href.contains("/load"))) {
+            if (href.contains("https://")) {
                 buff.add(el);
             }
         }
-        for (int i = 0; i < 10; i++){
-          new Thread(new Runnable() {
-              @Override
-              public void run() {
-                 BlockingQueue<Element> childrenLinksBuffer = new ArrayBlockingQueue<Element>(300, true);
 
-                  for(Element el : buff){
-                      if (el.attr("href").contains("https://"));
-                      try {
-                          Document document = Jsoup.parse(new URL("http://www.ex.ua" + el.attr("href") ), 200000);
-                          Element element = document.body();
-                          Elements elements = element.getElementsByTag("a");
-                          for (Element ele : elements){
-                              String href = ele.attr("href");
-                              if (href.contains("https://")){
-                                  childrenLinksBuffer.add(ele);
-                              }
-                          }
-                      } catch (IOException e) {
-                          e.printStackTrace();
-                      }
-                  }
-              }
-          }).start();
+        for (int i = 0; i < 10; i++) {
+
+            new Thread(new Runnable() {
+                @Override
+                public void run() {
+                    BlockingQueue<Element> childrenLinksBuffer = new ArrayBlockingQueue<Element>(300, true);
+                    for (Element el : buff) {
+                        if (el.attr("href").contains("https://")) ;
+                        try {
+                            Document document = Jsoup.parse(new URL(el.attr("href")), 200000);
+                            Element element = document.body();
+                            Elements elements = element.getElementsByTag("a");
+                            for (Element ele : elements) {
+                                String href = ele.attr("href");
+                                if (href.contains("http://")) {
+                                    childrenLinksBuffer.add(ele);
+                                }
+                            }
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
+                    }
+                }
+            }).start();
 
             new Thread(new Runnable() {
 
                 @Override
                 public void run() {
-                    for (Element el  : buff){
-                    if (el.attr("href").contains("/load")){
-                        String href = el.attr("href");
-                        try (InputStream is = new URI("http://ex.ua" + href).toURL().openStream();
-                             OutputStream os = new FileOutputStream("C:\\Serializer\\out\\production\\Serializer/folder")) {
+                    for (Element el : buff) {
+                        if (el.attr("href").contains("/load")) {
+                            String href = el.attr("href");
+                            try (InputStream is = new URI("http://ex.ua" + href).toURL().openStream();
+                                 OutputStream os = new FileOutputStream("C:\\Serializer\\out\\production\\Serializer")) {
 
-                            int count;
-                            while ((count = is.read()) != -1) {
-                                os.write(count);
-                                os.flush();
+                                int count;
+                                while ((count = is.read()) != -1) {
+                                    os.write(count);
+                                    os.flush();
+                                }
+                                System.out.println("Progress: " + (count++) + " of " + " files are downloaded");
+                            } catch (MalformedURLException e) {
+                                e.printStackTrace();
+                            } catch (IOException e) {
+                                e.printStackTrace();
+                            } catch (URISyntaxException e) {
+                                e.printStackTrace();
                             }
-                            System.out.println("Progress: " + (count++) + " of " + " files are downloaded");
-                        } catch (MalformedURLException e) {
-                            e.printStackTrace();
-                        } catch (IOException e) {
-                            e.printStackTrace();
-                        } catch (URISyntaxException e) {
-                            e.printStackTrace();
                         }
                     }
                 }
-                }
             }).start();
+            Thread.currentThread().stop();
         }
-
     }
-
 }
+
+
